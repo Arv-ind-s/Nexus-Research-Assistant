@@ -331,21 +331,6 @@ The system tracks:
 - **User Satisfaction**: Explicit feedback, follow-up query rate
 - **Latency**: Per-agent and end-to-end response time
 
-## Roadmap
-
-- [ ] Multi-modal support (images, videos, audio)
-- [ ] Collaborative knowledge bases (team workspaces)
-- [ ] Active learning (suggest documents to add)
-- [ ] Export to Notion/Obsidian/Roam
-- [ ] Voice interface integration
-- [ ] Automated report generation
-- [ ] Citation style templates (APA, MLA, Chicago)
-- [ ] Confidence scoring for answers
-
-## Contributing
-
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details
