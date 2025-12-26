@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+chromadb
+openai
+tavily-python
+python-dotenv
+requests
+pytest
+pytest-asyncio
+pytest-cov
+watchdog
+pypdf
+tiktoken
