@@ -373,10 +373,6 @@
       topics = get_kb_topics()  # From ChromaDB metadata
       for topic in topics:
           st.markdown(f"- {topic}")
-      
-      st.divider()
-      st.subheader("🔍 Recent Searches")
-      show_search_history()
   
   # Main Query Area
   col1, col2 = st.columns([4, 1])
@@ -445,28 +441,10 @@
               "latency_ms": response["metadata"]["latency_ms"],
               "cached": response["metadata"].get("cached", False)
           })
-      
-      # Related Topics
-      if response.get("related_topics"):
-          st.markdown("### 🔗 Related Topics")
-          for topic in response["related_topics"]:
-              st.button(topic, key=f"related_{topic}")
   ```
 
 #### Afternoon (4 hours)
-- [ ] **Advanced UI Features** (3 hours)
-  - Copy answer button (with citation preservation)
-  - Dark mode toggle
-  - Search history (last 10 queries)
-  - Loading states with step indicators:
-    - "Classifying query..."
-    - "Searching knowledge base..."
-    - "Searching web..."
-    - "Synthesizing answer..."
-  - Error handling with helpful messages
-  - Export answer as Markdown
-  
-- [ ] **Polish & UX** (1 hour)
+- [ ] **Polish & UX** (4 hours)
   - Smooth animations (st.spinner, progress bars)
   - Responsive design testing
   - Color-coded source badges (blue=KB, green=Web)
